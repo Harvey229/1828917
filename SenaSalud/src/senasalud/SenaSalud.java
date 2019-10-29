@@ -17,7 +17,28 @@ public class SenaSalud {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       Scanner opc = new Scanner(System.in);
+        String nom, ape, col;
+        int ed;
+       Scanner nombre = new Scanner(System.in);
+       System.out.println("Digite su Nombre");
+       nom=nombre.next();
+       
+       
+       Scanner apellido = new Scanner(System.in);
+       System.out.println("Digite su Apellido");
+       ape=apellido.next();
+       
+       Scanner edad = new Scanner(System.in);
+       System.out.println("Digite su Edad");
+       ed=edad.nextInt();
+       
+      
+       System.out.println("Su nombre es:"+nom);
+       System.out.println("Su apellido es:"+ape);
+       System.out.println("Su edad es:"+ed);
+      
+       
+       
     }
     
 }
