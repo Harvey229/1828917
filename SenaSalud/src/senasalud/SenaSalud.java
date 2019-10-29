@@ -32,11 +32,15 @@ public class SenaSalud {
        System.out.println("Digite su Edad");
        ed=edad.nextInt();
        
+       Scanner color = new Scanner(System.in);
+       System.out.println("Digite su color");
+       col=color.next();
+       
       
        System.out.println("Su nombre es:"+nom);
        System.out.println("Su apellido es:"+ape);
        System.out.println("Su edad es:"+ed);
-      
+       System.out.println("Su color favorito es:"+col);
        
        
     }
